@@ -1,6 +1,6 @@
 amount=float(input("enter the amount : "))
 print("here default currency is 💲")
-curr=input("enter the currency you want to convert \n(rupees ₹ /pound 💷 /Euro 💶 /yuen 💴 ) : ")
+curr=input("(rupees ₹ /pound 💷 /Euro 💶 /yuen 💴 )\n enter the currency you want to convert  : ")
 
 if curr=="rupees":
     print(f"{amount} is {amount*86.828} in ₹")
@@ -11,4 +11,4 @@ elif curr=="Euro":
 elif curr=="yean":
     print(f"{amount} is {amount*7.28} in 💴")
 else:
-    print(f"{curr} is wrong for this app")    
+    print(f"{curr} is wrong currency for this app")    
