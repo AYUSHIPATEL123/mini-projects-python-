@@ -1,2 +1,2 @@
-# mini-projects-python-
+# mini-projects-python-(beginner)
 very mini projects...................................................
